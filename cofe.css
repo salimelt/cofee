@@ -1,0 +1,442 @@
+:root{
+    --primarycolor:#ff274b;
+    --secondcolor:#f7bcf7;
+    --lightcolor:#ffffff;
+    --bgcolor-1:#171a1c;
+    --bgcolor-2:#22282a;
+    --padding:8%;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+html{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    color:var(--bgcolor-1);
+    background-color: #171a1c;
+}
+.home{
+    width: 100%;
+    height:180vh;
+    background-color: var(--bgcolor-1);
+    display: flex;
+    flex-direction:column;
+}
+span{
+    color: var(--primarycolor);
+}
+nav h2{
+    font-size: 1.2rem;
+    letter-spacing: 0.12rem;
+    cursor: pointer;
+    color: white;
+    
+   
+}
+
+nav{
+    padding-top: 2.8rem;
+    padding-left:var(--padding);
+    padding-right:var(--padding);
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+   
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin:20px 20px;
+
+}
+
+
+
+
+nav ul li a{
+    color: var(--lightcolor);
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 4s;
+  
+}
+nav ul li a:hover{
+    color: red;
+    
+}
+.btn{
+    background-color: var(--primarycolor);
+    color: white;
+    text-decoration: none;
+    
+    font-weight: bold;
+    padding: 0.81rem; border-radius: 30px;
+    transition: 4s;
+    border: 2px solid var(--primarycolor);
+}
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid var(--primarycolor);
+}
+.content{
+   
+    flex-grow: 1;
+    padding: 0var(--padding);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container{
+    position: relative;
+    
+    line-height: 60px;
+    margin-left: 40%;
+   
+}
+.container h2{
+    font-size: 4.65rem;
+    margin: 1.7rem;
+    padding: 30px;
+    position: relative;
+    left:80px;    
+    direction: rtl;
+    border: solid 2px blue;
+    border-radius: 20px;
+    
+    
+}
+h3{
+    font-size: 1.5rem;
+    direction: rtl;
+    padding:20px;
+    padding-right: 50px;
+    font-size: 30px;
+    border: solid 2px blue;
+    border-radius: 10px;
+    position: relative;
+    left: 80px;
+     
+   
+}
+.container p{
+    font-size: 1.25rem;
+    direction: rtl;
+    position: relative;
+    left:80px ;
+    top: 20px;
+    letter-spacing: 0.12rem;
+    font-size: 30px;
+    padding: 25px;
+    border: blue solid 2px;
+    border-radius: 20px;
+
+}
+.social{
+    margin-top: 2.5rem;
+    position: relative;
+}
+.social img{
+    margin-right: 2rem;
+    transition: 0.4s;
+    position: relative;
+    left: 150px;
+}
+.social img:hover{
+    transform: scale(1.2);
+}
+
+.imag{
+    background-color: red;
+    width: 100px;
+    height:200px;
+    position: relative;
+    right: 810px;
+    bottom: 60px;
+  
+}
+.imag img{
+    width: 300px;
+    height: 600px;
+    background-color: white;
+    position: relative;
+    bottom: 210px;
+   
+}
+.hid{
+    display: none;
+}
+.servicee{
+    width: 100%;
+    height:300vh;
+    background-color: white;
+}
+
+.table{
+    width: 500px;
+    border: 1px solid black;
+    position: relative;
+    left: 420px;
+    top: 50px;
+}
+.servicee h1{
+    direction: rtl;
+    border: solid 2px black;
+    width: 400px;
+    border-radius: 30px;
+    position: relative;
+    bottom: 40px;
+}
+.servicee img{
+    width:400px;
+    height: 800px;
+    background-color: aqua;
+    position: relative;
+    bottom: 790px;
+}
+.social1{
+    width: 300px;
+    height: 60px;
+    display:inline-flex;
+   
+    position: relative;
+    top: 100px;
+    left: 200px;
+    
+   
+}
+.social1 img{
+    width: 60px;
+    height: 60px;
+    margin-right: 50px;
+    background-color:white;
+
+   
+}
+.social1 img:hover{
+    transform: scale(1.2);
+}
+#btn1{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.incroporatione{
+    background-color: wheat;
+    background-image: url(image/cofe.jpg);
+    background-size: 100% 200vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+   
+}
+#btn2{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+}
+.incroporatione h1{
+    direction: rtl;
+    background-color: wheat;
+    border: solid 2px black;
+    width: 400px;
+    border-radius: 30px;
+}
+.incroporatione p{
+    direction: rtl;
+    background-color: wheat;
+    width: 600px;
+    border: solid 2px black;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 30px;
+    position: relative;
+    right: 0px;
+    left: 300px;
+    top: 100px;
+}
+
+.contact{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+}
+#btn3{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+}
+.contact h1{
+    direction: rtl;
+    background-color: wheat;
+    border: solid 2px black;
+    width: 400px;
+    border-radius: 30px;
+}
+.social2{
+    position: relative;
+    top: 100px;
+    
+}
+.social2 img{
+    margin-right: 20px;
+}
+
+.skills{
+    background-color: white;
+    width: 100%;
+    height: 200vh;
+    position: relative;
+    display: flex;
+    flex-direction: 
+    column;
+}
+.fine{
+    display: none;
+}
+
+#btn4{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+}
+.skills h1{
+    direction: rtl;
+    background-color: wheat;
+    border: solid 2px black;
+    width: 400px;
+    border-radius: 30px;
+}
+.skills p{
+    width: 600px;
+    border: solid 2px black;
+    border-radius: 20px;
+    font-size: 30px;
+    position: relative;
+    top: 80px;   
+}
+.skills h2{
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 400px;
+    position: absolute;
+   left: 80vh;
+   top: 20px;
+    
+    
+}
+.c{
+    width: 100%;
+    height:80vh;
+    border: blue solid 2px;
+    border-radius: 20px;
+}
+.match{
+    width: 100%;
+    height: 120vh;
+    position: relative;
+    background-color: wheat;
+    border: black solid 2px;
+    border-radius: 20px;
+}
+#vdo{
+    position: absolute;
+    top: 100px;
+    right: 25%;
+}
+
+
+
+@media screen and (max-width:500px) {
+    .home{
+       
+        width:1000px;
+    }
+    nav{
+        
+        width: 100%;
+    }
+    nav h2{
+        color: white;
+    }
+    .content{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    .servicee{
+        width: 1000px;
+        height:400vh;
+    }
+    .servicee img{
+        bottom: 950px;
+    }
+    .social1{
+        position: relative;
+        top: 280px;
+        left: 140px;
+    }
+    .skills{
+        width: 1000px;
+        height: 1200px;
+        height:450vh;
+    }
+    
+    .incroporatione{
+        width: 1000px;
+  
+        background-image: url(image/cofe.jpg);
+        background-size: 100% 1250px;
+        height:400vh;
+    }
+    .contact{
+        width: 1000px;
+        height: 400vh;
+    }
+    .contact .social{
+        position: relative;
+        top: 100px;
+        right: 100px; 
+    }
+
+   .skills h2{
+    position: absolute;
+    left: 75vh;
+   }
+   .match{
+    height:300vh ;
+   }
+   #vdo{
+    position: absolute;
+    top: 130px;
+    right: 25%;
+    border: blue solid 4px;
+    border-radius: 15px;
+}
+}
+
+position: absolute;
+    left: 40%;
+    top: 20px;
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding: 13px;
